@@ -1,0 +1,22 @@
+# Make this file FIRST, before you create .env.
+# If you create .env first and commit it, the key is already in the
+# history and deleting the file later will not remove it.
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Editor and OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
